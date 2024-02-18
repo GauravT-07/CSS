@@ -1,0 +1,32 @@
+div{
+    color:white;
+    background-color:rgba(212, 24, 236, 0.771);
+}
+
+/* To select elements for CSS with ID, # is used to target by ID */
+
+#first{
+    color:black;
+    background-color: aqua;
+}
+
+/* * can be used to select all the elements */
+
+*{
+    color:white;
+    background-color: black;
+}
+
+/* . should be used with class name to apply css for given element */
+
+.one{
+    color:white;
+    background-color:rgba(212, 24, 236, 0.771);
+}
+
+/* We can select multiple elements too in one  */
+
+/* div,p {
+    color:white;
+    background-color:rgba(212, 24, 236, 0.771); 
+} */
