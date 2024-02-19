@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red{
+    color:red;
+    height: 44px;
+    background-color: aqua;
+}
+
+.green{
+    color:green;
+    background-color: aquamarine;
+}
+
+/* shortcut to write background color is bacolor */
+.container{
+    height: 800px;
+    background-color: red;
+    background-image: url(Way-Down-We-Go.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+    /* background:red url(Way-Down-We-Go.jpg) no-repeat fixed right */
+}
+
+/* one more property to add all of it in one, you can skip any of them as well and still it will work fine */
