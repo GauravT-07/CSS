@@ -1,0 +1,44 @@
+*{
+margin:0;
+padding:0;
+}
+
+.blue{
+    width:200px;
+    height:120px;
+    margin: 4px;
+    padding: 4px;
+    color:black;
+    background-color: red;
+}
+
+.red{
+    color:black;
+    background-color: aqua;
+    height: 200px;
+    width: 800px;
+    margin: 7px 0px 2px 4px;
+    padding: 4px;
+    border: black 2mm solid;
+    border-radius: 20px;
+}
+/* .green{
+    color:black;
+    background-color: aqua;
+    height: 41px;
+    width: 800px;
+    margin: 7px 0px 2px 4px;
+    padding: 4px;
+    border: black 2mm solid;
+    border-radius: 20px;
+    box-sizing: content-box;
+} */
+
+/* Margin can have 4 values in order top right bottom left, remember a clock runing in clockwise direction starting with top */
+/* Just as Margin , same goes for padding too */
+/* If only two values are given one will be taken for top & bottom and other for left & right  */
+/* Total height = height + top/bottom padding + top/bottom margin + top/botom border */
+
+/* Margin Collapse  */
+/* When two margins from different elements overlap, the equivalent margin is greater of the two. this is called margin collapse
+for eg: if 1 div has margin 3 and nect has 7. then the between margin both the elements would be taken as 7 */
