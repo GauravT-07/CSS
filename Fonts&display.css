@@ -1,0 +1,18 @@
+.box1 {
+    color: white;
+    background-color: red;
+    height: 100px;
+    width: 400px;
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.box2 {
+    color: black;
+    background-color: aqua;
+    display: block;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
